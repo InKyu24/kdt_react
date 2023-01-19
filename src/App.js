@@ -1,7 +1,11 @@
+import Test from "./Test";
+
 function App() {
   return (
     <div>
-      안녕하세요. 리액트입니다
+      <Test text="HTML" />
+      <Test text="CSS" />
+      <Test text="React" />
     </div>
   );
 }
