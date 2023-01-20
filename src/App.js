@@ -1,12 +1,17 @@
-import Test from "./Test";
+import Footer from "./components/layouts/Footer";
+import Header from "./components/layouts/Header";
+import Main from "./pages/Main";
 
 function App() {
+
   return (
-    <div>
-      <Test text="HTML" />
-      <Test text="CSS" />
-      <Test text="React" />
-    </div>
+    <>
+      <div id="wrap">
+        <Header />
+        <Main />
+        <Footer />
+      </div>
+    </>
   );
 }
 
